@@ -10,7 +10,7 @@ namespace BioTrackerBeacon
     [BepInPlugin("BioStickTracker", "BioStickTracker", "1.0.0")]
     public sealed class BioStickTracker : BasePlugin
     {
-        internal static new ManualLogSource? Logger;
+        internal static ManualLogSource? Logger;
 
         internal static ConfigEntry<bool>? CfgDebugLog;
         internal static ConfigEntry<int>? CfgPersistentId;
